@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #1e3c72, #5593fd);
+    font-family: 'Playwrite Ireland', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #030303c7;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Playwrite IE';
+    font-style: normal;
+    font-weight: 100 400;
+    font-display: swap;
+}
+
+p {
+    color: #030303c7;
+    text-align: center;
+    font-family: 'Playwrite IE';
+    font-style: normal;
+    font-weight: 100 400;
+    font-display: swap;
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    padding: 1rem; /* Optional: add some padding around the nav */
+  }
+
+/* Button Styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: centers the button vertically as well */
+  }
+  
+  .button-73 {
+    appearance: none;
+    background-color: #FFD700;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #FFECB3 0 -8px 4px inset;
+    box-sizing: border-box;
+    color: #030303;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Playwrite Ireland', Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+.button-73:hover {
+  background-color: #FFC107;
+  box-shadow: #B8860B 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.1rem;
+    padding: .6rem 1.5rem;
+  }
+}
